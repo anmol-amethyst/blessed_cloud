@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Smythe&display=swap');
+:root{--theme1:#153D4B; --theme2: #544527; --light : #F2F2EC; --black:#2C3A47; --light:#CAD3C8;}
+body{color: var(--black);}
+*{ font-family: "Signika", sans-serif;line-height: 1.5em;}
+h1,h2,h3,h4,h5,.nav-link,.navbar-brand,.link{ font-family: "Merriweather", serif;}
+.tag{  font-family: "Smythe", system-ui;}
+
+.bg1{background-color: var(--theme1);color: white;}
+.bg2{background-color: var(--theme2);color: white;}
+.bg1{color: var(--light)}
+
+.fg1{color: var(--theme1);}
+.fg2{color: var(--theme2) !important; }
+.fg3{color: #ae986d!important; }
+
+.text-justify{text-align: justify;}
+a{text-decoration: none;}
+
+.tagline{letter-spacing: 4pt; color: var(--theme1); text-transform: uppercase; font-size: 16pt;}
+p{font-size: large;}
+
+td{background: transparent !important; }
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--theme2);
+    background-color:var(--light);
+    border-color: var(--theme2);
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    color: var(--light);
+    width: 200px;
+}
+
+.about-banner{
+    background-image: url(../images/hotel_account1.jpg);
+    background-size:100% 100%;
+}
+.about-banner div{
+    background-color: rgba(84, 69, 39,0.7);
+    padding-block: 150px;
+
+}
